@@ -39,18 +39,18 @@ img {
     text-decoration: none;
     border-radius: 20px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 500px) {
     .contenedor-principal {
         display:flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
-    .entrada{
-        flex 0 1 calc(50% - 1rem);
+    .entrada {
+        flex: 0 1 calc(30% - 1rem);
     }
 }
 @media screen and (min-width: 800px) {
-    .entrada{
-        flex: 0 1 calc(33% - 1rem);
+    .entrada {
+        flex: 0 1 calc(25% - 1rem);
     }
 }
